@@ -4,6 +4,30 @@ An advanced machine learning pipeline and predictive analytics platform designed
 
 ---
 
+## Repository Description (for GitHub)
+
+> A machine learning-driven real estate cost-of-living prediction platform that dynamically estimates localized expenses—including insurance requirements, utility rates, and grocery costs—segmented by ZIP code.
+
+---
+
+## Class & Project Information
+
+* **Institution:** Houston City College
+* **Program:** Associate Degree in Artificial Intelligence and Robotics
+* **Course:** ITAI-2277-Artificial Intel Resource
+* **Project Type:** 16-Week Academic Capstone Project
+
+---
+
+## Project Team
+
+* **Team Member:** Brandon Matias
+* **Team Member:** Jonah Joseph
+* **Team Member:** Taki Eddine Boubekri
+* **Team Member:** Khadijah Patience
+
+---
+
 ## Key Features
 
 * **Granular ZIP Code Analytics:** Delivers localized predictive breakdowns rather than broad city or county averages.
@@ -23,3 +47,17 @@ An advanced machine learning pipeline and predictive analytics platform designed
 ---
 
 ## Project Architecture
+
+```text
+├── documentation/         # Technical PDF Documentation week by week
+├── presentations/         # PDF formatted class phase presentations
+├── data/                  # Raw and processed datasets (ZIP code aggregates)
+├── notebooks/             # Exploratory Data Analysis (EDA) and model prototyping
+├── src/                   # Source code for data pipelines, feature engineering, and training
+│   ├── ingestion.py       # Data gathering and cleaning scripts
+│   ├── features.py        # Feature engineering pipeline
+│   └── train.py           # Model training and hyperparameter tuning
+├── models/                # Serialized production models (.pkl / .joblib)
+├── outputs/               # Generated evaluation reports, charts, and predictions
+├── requirements.txt       # Project dependencies
+└── README.md

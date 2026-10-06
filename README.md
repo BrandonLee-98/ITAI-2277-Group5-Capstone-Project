@@ -52,6 +52,7 @@ An advanced machine learning pipeline and predictive analytics platform designed
 ├── documentation/         # Technical PDF Documentation week by week
 ├── presentations/         # PDF formatted class phase presentations
 ├── data/                  # Raw and processed datasets (ZIP code aggregates)
+├── demos/                 # Recorded video demos of the application
 ├── notebooks/             # Exploratory Data Analysis (EDA) and model prototyping
 ├── src/                   # Source code for data pipelines, feature engineering, and training
 │   ├── ingestion.py       # Data gathering and cleaning scripts

@@ -1,0 +1,5 @@
+outs:
+- md5: b0c2c5452878b954b98fc1c207a8e5a9
+  size: 33802
+  hash: md5
+  path: master_living_costs_clustered.parquet
